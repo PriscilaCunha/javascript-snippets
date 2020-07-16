@@ -29,3 +29,8 @@ jQuery('.x').unwrap();
 
 // Clone .x e move para dentro de .y | Duplica .x e move para dentro de .y
 jQuery('.x').clone().prependTo('.y');
+
+
+
+// Deletes .x | Remove .x
+jQuery('.x').remove();
