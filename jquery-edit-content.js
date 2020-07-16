@@ -32,5 +32,13 @@ jQuery('.x').clone().prependTo('.y');
 
 
 
+// Replace .x with content | Substitui .x por conteúdo
+jQuery('div.x').replaceWith('<h2>New text</h2>');
+
+// Replace .x with .y | Substitui .x por .y
+jQuery('div.x').replaceWith( jQuery('.x') );
+
+
+
 // Deletes .x | Remove .x
 jQuery('.x').remove();
